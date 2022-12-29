@@ -1,2 +1,4 @@
 # Video-Photo-Editing
-My first public repository where I work on my video editing/photo editing website
+My first public repository
+
+my first public website about Video/Photo Editing

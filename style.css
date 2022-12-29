@@ -2,6 +2,10 @@
 
 html{
     background-color: rgb(29, 21, 36);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: aliceblue;
 }
 li, a, p{
     font-family: "Montserrat", sans-serif;
@@ -13,9 +17,14 @@ li, a, p{
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 30px, 10%;
+}
+
+img{
+    max-width: 20%;
+    float:right;
+    border-radius: 20%;
 }
 
 .navigation{
@@ -28,16 +37,25 @@ header{
 }
 
 .navigation li a:hover{
-    color: aqua;
+    color: cornflowerblue;
 }
 
-button{
-    padding: 9px 25px;
-    background-color: rgb(0, 255, 255);
-    border-radius: 20rem;
-    border: none;
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
 }
 
-button:hover{
-    background-color: rgb(0, 148, 148);
+.content .general h1{
+    color: azure;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.content .general h1 span{
+    color:cornflowerblue;
+    font-size: 40px;
+    font-weight: 600;
 }

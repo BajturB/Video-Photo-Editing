@@ -47,7 +47,15 @@ header{
 }
 
 p{
-    width: 100%;
+    width: 70%;
+    margin-top: 2.5rem;
+    row-gap: 2rem;
+    font-size: 20px;
+}
+
+.download{
+    font-size: 20px;
+    color: floralwhite;
 }
 
 .content{
@@ -55,6 +63,7 @@ p{
 }
 
 .content .general h1{
+    justify-content: space-between;
     margin-top: 2rem;
     color: azure;
     font-size: 45px;
@@ -73,6 +82,14 @@ p{
     font-weight: 600;
 }
 
+.content section{
+    margin-top: 5rem;
+}
+
+ h2{
+    color: white;
+    font-size: 20px;
+ }
 
 table th span{
     color:cornflowerblue;
@@ -80,6 +97,8 @@ table th span{
 }
 
 table{
+    padding-top: 2rem;
+    width: 100%;
     border: 1px solid rgb(255, 255, 255);
     border-collapse: collapse;
     border-style: none;
@@ -87,4 +106,34 @@ table{
 
 th, td{
     padding-bottom: 2rem;
+}
+
+.QA th{
+    font-size: 17px;
+}
+.QA td{
+    color: darkgray;
+}
+
+.survey, a.button{
+    background-color: gray;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 10rem;
+    font-size: 20px;
+}
+
+.survey:hover, a.button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+img{
+    max-width: 20%;
+    float: right;
+    text-align: left;
 }

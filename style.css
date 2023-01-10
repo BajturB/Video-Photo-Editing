@@ -28,8 +28,7 @@ header{
     margin-top:2rem;
     background-color: rgb(29, 21, 36);
     position: fixed;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 #navigation a {
@@ -136,4 +135,15 @@ img{
     max-width: 20%;
     float: right;
     text-align: left;
+    float: inherit;
+}
+
+a.tutorial{
+    font-size: 20px;
+    color: aqua;
+}
+
+a.tutorial:hover{
+    color: black;
+    background-color: white;
 }

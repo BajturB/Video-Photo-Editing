@@ -45,6 +45,11 @@ header{
     color: black;
 }
 
+div.general{
+	background-image:url(allPictures.png);
+    background-size: contain;
+}
+
 p{
     width: 70%;
     margin-top: 2.5rem;
@@ -58,6 +63,7 @@ p{
 }
 
 .content{
+    float: left;
     margin: 60px 100px;
 }
 
@@ -88,11 +94,23 @@ p{
  h2{
     color: white;
     font-size: 20px;
+    background-color: rgb(29, 21, 36);
  }
 
 table th span{
-    color:cornflowerblue;
+    color: cornflowerblue;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-name: custom;
     font-size: 35px;
+}
+
+@keyframes custom{
+    0% {color: aqua;}
+    25% {color: blue;}
+    50% {color: cadetblue;}
+    75% {color: darkturquoise;}
+    100% {color: darkcyan;}
 }
 
 table{
@@ -175,7 +193,7 @@ a.tutorial:hover{
   .form-text {
     margin-top: 0.25rem;
     font-size: 0.875em;
-    color: #6c757d;
+    color:aqua;
   }
   
   .form-control {

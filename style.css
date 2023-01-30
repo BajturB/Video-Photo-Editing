@@ -33,7 +33,6 @@ header{
 
 #navigation a {
     float: right;
-    display: block;
     color: white;
     text-align: center;
     padding: 15px;
@@ -48,6 +47,10 @@ header{
 div.general{
 	background-image:url(allPictures.png);
     background-size: contain;
+}
+
+h1{
+    text-shadow: -1px 0  #000000, 0 1px  #000000, 1px 0  #000000, 0 -1px  #000000;
 }
 
 p{
@@ -95,6 +98,7 @@ p{
     color: white;
     font-size: 20px;
     background-color: rgb(29, 21, 36);
+    
  }
 
 table th span{
@@ -149,6 +153,17 @@ th, td{
     color: black;
 }
 
+.surveyData{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+}
+
+.surveyData th{
+    font-size: larger;
+    justify-items: center;
+    align-items: center;
+}
+
 img{
     max-width: 20%;
     float: right;
@@ -193,7 +208,7 @@ a.tutorial:hover{
   .form-text {
     margin-top: 0.25rem;
     font-size: 0.875em;
-    color:aqua;
+    color:gray;
   }
   
   .form-control {

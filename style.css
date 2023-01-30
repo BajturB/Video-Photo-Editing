@@ -50,12 +50,11 @@ div.general{
 }
 
 h1{
-    text-shadow: -2px 0  #000000, 0 2px  #000000, 2px 0  #000000, 0 -2px  #000000;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 p{
-    letter-spacing: 2px;
-    width: 70%;
+    width: 100%;
     margin-top: 2.5rem;
     row-gap: 6rem;
     font-size: 20px;
@@ -211,3 +210,17 @@ a.tutorial:hover{
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+  .imprint{
+    margin-top: 3rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.imprint ul{
+    list-style: none;
+}
+
+footer li:hover, .imprint-Logo:hover, ._headerBackground{
+    opacity: 0.6;
+}

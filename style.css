@@ -106,12 +106,12 @@ table th span{
     animation-iteration-count: infinite;
     animation-duration: 5s;
     animation-name: custom;
+    animation-direction: reverse;
     font-size: 35px;
 }
 
 @keyframes custom{
     0% {color: aqua;}
-    25% {color: blue;}
     50% {color: cadetblue;}
     75% {color: darkturquoise;}
     100% {color: darkcyan;}
@@ -208,7 +208,7 @@ a.tutorial:hover{
   .form-text {
     margin-top: 0.25rem;
     font-size: 0.875em;
-    color:gray;
+    color:aqua;
   }
   
   .form-control {

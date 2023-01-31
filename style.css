@@ -192,6 +192,10 @@ a.tutorial:hover{
     margin-bottom: 16px;
     resize: vertical;
   }
+
+  label{
+    color: rgb(29, 21, 36);
+  }
   
   input[type=submit] {
     background-color: aqua;
